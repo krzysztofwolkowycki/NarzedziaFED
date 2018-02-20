@@ -1,6 +1,6 @@
 .all {
   width: 960px;
-  background-color: black; }
+  background-color: white; }
   .all .head {
     height: 300px;
     width: 960px;
@@ -22,3 +22,7 @@
       width: 320px;
       background-color: saddlebrown;
       float: left; }
+  .all .footer {
+    height: 300px;
+    width: 960px;
+    background-color: red; }
