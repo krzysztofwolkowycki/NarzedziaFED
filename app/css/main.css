@@ -1,7 +1,24 @@
 .all {
   width: 960px;
-  background-color: white; }
+  background-color: black; }
   .all .head {
     height: 300px;
     width: 960px;
     background-color: steelblue; }
+  .all .main {
+    width: 960px; }
+    .all .main .left {
+      height: 500px;
+      width: 320px;
+      background-color: seagreen;
+      float: left; }
+    .all .main .middle {
+      height: 500px;
+      width: 320px;
+      background-color: salmon;
+      float: left; }
+    .all .main .right {
+      height: 500px;
+      width: 320px;
+      background-color: saddlebrown;
+      float: left; }

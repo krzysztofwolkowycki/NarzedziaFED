@@ -10,10 +10,27 @@ $heightfooter:300px;
 }
 .all{
     @include width(960px);
-    background-color: white;
+    background-color: black;
     .head{
         @include size(300px,960px);
-        background-color: steelblue;
-        
+        background-color: steelblue; 
+    }
+    .main{
+        @include width(960px);
+        .left{
+            @include size(500px,320px);
+            background-color: seagreen;
+            float: left;
+        }
+        .middle{
+            @include size(500px,320px);
+            background-color: salmon;
+            float: left;
+        }
+        .right{
+            @include size(500px,320px);
+            background-color: saddlebrown;
+            float: left;
+        }
     }
 }
