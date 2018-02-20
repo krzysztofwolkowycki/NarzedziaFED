@@ -4,7 +4,8 @@
   .all .head {
     height: 300px;
     width: 960px;
-    background-color: steelblue; }
+    background-color: steelblue;
+    float: left; }
   .all .main {
     width: 960px; }
     .all .main .left {
@@ -25,4 +26,5 @@
   .all .footer {
     height: 300px;
     width: 960px;
-    background-color: red; }
+    background-color: red;
+    float: left; }

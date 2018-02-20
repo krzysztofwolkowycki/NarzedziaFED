@@ -11,9 +11,11 @@ $heightfooter:300px;
 .all{
     @include width(960px);
     background-color:white;
+    
     .head{
         @include size(300px,960px);
         background-color: steelblue; 
+        float: left;
     }
     .main{
         @include width(960px);
@@ -32,9 +34,12 @@ $heightfooter:300px;
             background-color: saddlebrown;
             float: left;
         }
+
     }
     .footer{
         @include size(300px,960px);
         background-color: red;
+        float: left;
     }
+
 }
