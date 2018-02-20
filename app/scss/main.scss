@@ -1,12 +1,19 @@
 @import 'basic/variables.scss';
-
-.test {
-    background: $primary-color;
+$heighthead:300px;
+$heightfooter:300px;
+@mixin width($widthmain){
+    width: $widthmain;
 }
-.pierwsza{
-width: 100px;
+@mixin size($heightmain, $widthmain){
+    height: $heightmain;
+    width: $widthmain;
 }
-.druga{
-width: 200px;
-height: 200px;
+.all{
+    @include width(960px);
+    background-color: white;
+    .head{
+        @include size(300px,960px);
+        background-color: steelblue;
+        
+    }
 }
